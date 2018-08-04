@@ -6,9 +6,6 @@ import { navigateTo, addEvent } from "./utils/tools";
 @Component({ styleUrls: ["./css/expert.css", "./css/index.css"] })
 @Header("名医汇")
 class Expert extends Template {
-   
-
-
     constructor() {
         super();
         this.render(this.headerNoUrl(Expert.title), this.homeTab("expert"));
